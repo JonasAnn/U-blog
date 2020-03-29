@@ -47,6 +47,7 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin: 0 0 10px 0;
 }
 
 .icon{
@@ -69,18 +70,17 @@
 }
 
 .name-div{
-  width: 45%;
+  width: 50%;
   height: 100%;
 }
 
 .recipe-name {
   font-family: var(--ff-primary);
   color: var(--clr-accent);
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 0 0 10px 0;
 
 }
-
 
 .ingredient-list {
   padding: 0 0 0 20px;
@@ -90,7 +90,7 @@
 .ingredient-item {
   color: var(--clr-light);
   font-family: var(--ff-secondary);
-  font-size: 1em;
+  font-size: 0.7em;
   padding: 0 0 5px 0;
 
 }

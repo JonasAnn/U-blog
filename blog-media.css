@@ -36,14 +36,14 @@
 
 } 
 .recipe-name {
-  font-size: 3em;
+  font-size: 2.6em;
   padding: 0 0 20px 0;
     
 }
 
 .ingredient-list {
   line-height: 3em;
-  font-size: 1.15em;
+  font-size: 1.1em;
   padding: 0 0 0 30px;
 
 }
@@ -55,21 +55,22 @@
 
 }
 
+@media(min-width: 640px) and (max-width:800px) {
+  
+  .recipe-name {
+    font-size: 2em;
+   
+  }
+  .ingredient-item {
+    font-size: 1.3em;
+  
+  }
+  }
+
+
 @media(max-width: 900px) {
   .content {
     grid-template-rows: 80vh 1fr;
   
   }
 }
-
-
-
-/* .make-para {
-  padding: 10px 0 10px 20px;
-
-} */
-
-/* .comments {
-  padding: 0 0 10px 20px;
-
-} */
