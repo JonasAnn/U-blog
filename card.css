@@ -1,0 +1,88 @@
+/* ----blog css----- */
+.card-section {
+  background-color: #fff;
+  padding: 30px 10px 30px 10px;
+
+}
+
+
+.card-section-head {
+  color: var(--clr-dark);
+  font-family: var(--ff-primary);
+  text-align: center;
+  font-size: var(--fs-h1);
+  padding: 0 0 1.5em 0;
+
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 20px;
+  font-size: 0.8em;
+
+} 
+
+.card-one,
+.card-two,
+.card-three,
+.card-four,
+.card-five,
+.card-six
+ {
+  border-top: 6px solid var(--clr-accent);
+  border-radius: 5px;
+  background-color: var(--clr-dark);
+  color: #fff;
+
+}
+
+.card-text,
+.card-link  {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.card-text {
+  width: 90%;
+  font-family: var(--ff-primary);
+
+}
+
+.card-link {
+  width: 100%;
+  padding: 0 4px 7px 4px;
+  font-family: var(--ff-secondary);
+
+}
+
+hr {
+  margin: 10px 0 10px 0;
+  border: 1px solid var(--clr-light);
+
+}
+
+.card-para {
+  width: 70%;
+
+}
+
+.card-btn {
+  color: var(--clr-accent);
+  border: 2px solid var(--clr-light);
+  background-color: #fff;
+  font-weight: 500;
+  height: 35px;
+  width: 26%;
+
+}
+
+.card-img {
+  border: 2px solid var(--clr-light);
+  border-top: 0;
+
+}

@@ -1,0 +1,75 @@
+@media(min-width:900px) {
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.author-section {
+  width: 80%;
+
+}
+.author-bio-para {
+  line-height: 2em;
+  padding: 0 10px 0 2px;
+
+}
+
+.quote {
+  padding: 15px 0 8px 0;
+}
+
+.blockquote {
+  line-height: 2em;
+  padding: 0 8px 0 2px;
+
+}
+
+.social {
+  padding: 40px 0 20px 0;
+
+}
+
+.make-list {
+  padding: 0 0 15px 0;
+
+} 
+.recipe-name {
+  font-size: 3em;
+  padding: 0 0 20px 0;
+    
+}
+
+.ingredient-list {
+  line-height: 3em;
+  font-size: 1.15em;
+  padding: 0 0 0 30px;
+
+}
+
+.make-food {
+  padding: 0 0 0 20px;
+  
+}
+
+}
+
+@media(max-width: 900px) {
+  .content {
+    grid-template-rows: 80vh 1fr;
+  
+  }
+}
+
+
+
+/* .make-para {
+  padding: 10px 0 10px 20px;
+
+} */
+
+/* .comments {
+  padding: 0 0 10px 20px;
+
+} */

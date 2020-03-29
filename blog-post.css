@@ -1,0 +1,104 @@
+.content {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 30px 10px 30px 10px;
+  height:auto;
+  color: var(--clr-dark);
+
+}
+
+.avatar-img {
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+
+}
+
+.author-name,
+.author-title,
+.author-company,
+.author-bio,
+.quote {
+  font-family: var(--ff-primary);
+  padding: 1px 0 8px 0;
+
+}
+
+.author-title {
+  color: var(--clr-accent);
+  
+}
+
+.author-bio-para {
+  font-family: var(--ff-secondary);
+  text-align: justify;
+
+}
+
+.social {
+  font-family: var(--ff-primary);
+  padding: 10px 0 10px 0;
+
+}
+
+.icon{
+  font-size: 2.5em;
+  padding: 3px 8px 0 0;
+  color: var(--clr-light);
+
+}
+
+/* ----article section--- */
+ .article {
+  padding: 0 10px 0 10px;
+
+}
+
+ .food-img {
+  border-top: 3px solid var(--clr-light);
+
+}
+
+.recipe-name {
+  font-family: var(--ff-primary);
+  color: var(--clr-accent);
+  font-size: 1.9em;
+  padding: 0 0 10px 0;
+
+}
+
+
+.ingredient-list {
+  padding: 0 0 0 20px;
+
+}
+
+.ingredient-item {
+  color: var(--clr-light);
+  font-family: var(--ff-secondary);
+  font-size: 1.25em;
+  padding: 0 0 5px 0;
+
+}
+
+.article-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.make-para {
+  font-family: var(--ff-primary);
+  color: var(--clr-accent);
+  padding: 10px 0 10px 0;
+
+}
+
+.make-item {
+  font-family: var(--ff-secondary);
+  padding: 0 0 5px 0;
+  text-align: justify;
+
+}
+ 
