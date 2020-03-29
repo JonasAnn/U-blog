@@ -38,8 +38,15 @@
 
 .social {
   font-family: var(--ff-primary);
-  padding: 10px 0 10px 0;
+  padding: 0 0 10px 0;
+  text-align: center;
 
+}
+
+.social-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .icon{
@@ -56,13 +63,13 @@
 }
 
 .food-image {
-  width: 100%;
+  width: 45%;
   height: auto;
   border-top: 3px solid var(--clr-light);
 }
 
 .name-div{
-  width: 100%;
+  width: 45%;
   height: 100%;
 }
 
@@ -89,9 +96,10 @@
 }
 
 .article-one {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .make-para {
