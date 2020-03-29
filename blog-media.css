@@ -48,7 +48,7 @@
 }
 
 .ingredient-item {
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 .make-food {
@@ -58,22 +58,10 @@
 
 }
 
-@media(min-width: 640px) and (max-width:800px) {
-  
-  .recipe-name {
-    font-size: 2em;
-   
-  }
-  .ingredient-item {
-    font-size: 1.3em;
-  
-  }
-  }
-
 
 @media(max-width: 900px) {
   .content {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 80vh 1fr;
   
   }
 }
