@@ -73,7 +73,7 @@
 
 @media(max-width: 900px) {
   .content {
-    grid-template-rows: 80vh 1fr;
+    grid-template-rows: 1fr 1fr;
   
   }
 }
